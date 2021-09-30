@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaTeTi", "TaTeTi\TaTeTi.csproj", "{160AE8B6-F03A-4758-9FCF-554B21FA109E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160AE8B6-F03A-4758-9FCF-554B21FA109E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160AE8B6-F03A-4758-9FCF-554B21FA109E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160AE8B6-F03A-4758-9FCF-554B21FA109E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160AE8B6-F03A-4758-9FCF-554B21FA109E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {803BD1E5-12F4-43F5-A6FA-4E8815D5F0F2}
+	EndGlobalSection
+EndGlobal
