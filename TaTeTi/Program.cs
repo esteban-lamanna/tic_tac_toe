@@ -42,6 +42,8 @@ namespace TaTeTi
 
                 PutMarkInMatrix(currentMark);
 
+                Console.WriteLine(_matrix.Draw());
+
                 var winner = DetectWinner(currentPlayer);
 
                 if (winner)

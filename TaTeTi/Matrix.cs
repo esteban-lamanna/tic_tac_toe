@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace TaTeTi
 {
@@ -25,6 +26,42 @@ namespace TaTeTi
           _arrayVerticalSecondColumn,
           _arrayVerticalThirdColumn,
         };
+
+        public string Draw()
+        {
+            var blder = new StringBuilder();
+
+            for (int y = 0; y < 3; y++)
+            {
+                blder.AppendLine();
+
+                blder.Append($"Line {y}    ");
+
+                for (int x = 0; x < 3; x++)
+                {
+                    if (x > 0)
+                        blder.Append($"   ");
+
+                    var item = Grid[x, y];
+
+                    if (item == null)
+                    {
+                        blder.Append($"   ");
+                        continue;
+                    }
+
+                    if (item.Player == Players.PlayerOne)
+                    {
+                        blder.Append($" X ");
+                        continue;
+                    }
+
+                    blder.Append($" O ");
+                }
+            }
+
+            return blder.ToString();
+        }
 
         public Mark[,] Grid = new Mark[3, 3];
 

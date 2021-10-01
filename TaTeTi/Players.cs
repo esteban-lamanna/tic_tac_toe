@@ -2,9 +2,9 @@
 {
     public static class Players
     {
-        static Player PlayerOne { get; set; } = new Player(1);
+        public static Player PlayerOne { get; set; } = new Player(1);
 
-        static Player PlayerTwo { get; set; } = new Player(2);
+        public static Player PlayerTwo { get; set; } = new Player(2);
 
 
         public static Player GetNextPlayer(int muvementNumber)
